@@ -9,7 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class BandController {
 
     @GetMapping("/getBand")
-    public Band getBand(){
+    public Band getBand() {
         return new Band(1, "One Direction", 1000, "Pop");
     }
+
+
 }
+
+
