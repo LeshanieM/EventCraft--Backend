@@ -6,11 +6,13 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 @Data
+@NoArgsConstructor
 @AllArgsConstructor
 @ToString
-@NoArgsConstructor
+
 public class Band {
     private Integer id;
     private String bandName;
-    private Double price;
+    private Integer price;
+    private String musicGenre;
 }
