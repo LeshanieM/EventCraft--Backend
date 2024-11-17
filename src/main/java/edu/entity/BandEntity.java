@@ -13,7 +13,6 @@ import lombok.ToString;
 @ToString
 @Entity
 @Table(name = "band")
-
 public class BandEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

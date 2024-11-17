@@ -6,10 +6,3 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface BandRepository extends JpaRepository<BandEntity,Integer> {
 }
-
-/*
-interface CrudRepository<T,Id>{
-     void add(T t);
-     T get();
-     T searchById(Id id);
-}*/
