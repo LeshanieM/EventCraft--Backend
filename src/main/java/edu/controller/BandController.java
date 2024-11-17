@@ -39,6 +39,7 @@ public class BandController {
     }
 
     @PutMapping("/updateBand")
+    @ResponseStatus(HttpStatus.ACCEPTED)
     public void updateBand(@RequestBody Band band){
         iBandService.updateBandById(band);
     }
