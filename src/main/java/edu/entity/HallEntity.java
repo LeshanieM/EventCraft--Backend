@@ -1,18 +1,24 @@
-package edu.model;
+package edu.entity;
 
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
+
 @Data
+@NoArgsConstructor
 @AllArgsConstructor
 @ToString
-@NoArgsConstructor
-public final class Hall {
+@Entity
+@Table(name = "hall")
+public class HallEntity {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String HallName;
     private Integer price;
     private String HotelName;
-
 }
+
