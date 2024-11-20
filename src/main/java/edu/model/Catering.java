@@ -12,7 +12,7 @@ import lombok.ToString;
 public class Catering {
     private Integer id;
     private String cateringType;
-    private Integer price;
+    private Integer UserID;
     private String date;
 
 }
