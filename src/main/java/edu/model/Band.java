@@ -14,5 +14,5 @@ public class Band {
     private Integer id;
     private String bandName;
     private Integer price;
-    private String musicGenre;
+    private String bDate;
 }

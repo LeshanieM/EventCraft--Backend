@@ -11,8 +11,8 @@ import lombok.ToString;
 @NoArgsConstructor
 public final class Hall {
     private Integer id;
-    private String HallName;
+    private String hallName;
     private Integer price;
-    private String HotelName;
+    private String hallDate;
 
 }
