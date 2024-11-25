@@ -18,6 +18,6 @@ public class BandEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String bandName;
-    private Integer UserID;
+    private Integer price;
     private String bDate;
 }
