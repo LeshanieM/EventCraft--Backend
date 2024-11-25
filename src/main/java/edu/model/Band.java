@@ -13,6 +13,6 @@ import lombok.ToString;
 public class Band {
     private Integer id;
     private String bandName;
-    private Integer UserID;
+    private Integer price;
     private String bDate;
 }

@@ -12,7 +12,7 @@ import lombok.ToString;
 public final class Hall {
     private Integer id;
     private String hallName;
-    private Integer UserID;
+    private Integer price;
     private String hallDate;
 
 }

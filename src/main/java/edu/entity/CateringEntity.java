@@ -17,6 +17,6 @@ public class CateringEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String cateringType;
-    private Integer UserID;
+    private Integer price;
     private String date;
 }

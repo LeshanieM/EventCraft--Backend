@@ -18,7 +18,7 @@ public class HallEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String hallName;
-    private Integer UserID;
+    private Integer price;
     private String hallDate;
 }
 
